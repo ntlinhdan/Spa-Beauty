@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --color-one: #121F38;
+    --color-two: #FDE6D8;
+    --color-three: #9A563A;
+    --color-four: #FCF3F0;
+    --font: "Work Sans", sans-serif;
+    --color-text: #555555;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: var(--font);
+    color: var(--color-text);
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
